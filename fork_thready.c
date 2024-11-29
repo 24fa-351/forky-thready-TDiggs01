@@ -82,6 +82,11 @@ int main ( int argc, char *argv[] ) {
     else if( atoi(argv[3]) == 2  ) {
         sprintf(buf, "%ld Pattern 2 begining", args->tid);
         write(1, buf, strlen(buf));
+
+        for(int xi = 0; xi < atoi(argv[2]); xi++) {
+            myThreadFun(args);
+        }
+
     }
     else if( atoi(argv[3]) == 3  ) {
 
