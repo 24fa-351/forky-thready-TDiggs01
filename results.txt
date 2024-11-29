@@ -1,0 +1,8 @@
+Process 0 ( 132360389527232 ) begining 
+Process 0 ( 132360389527232 ) creating Process 1 
+Process 0 ( 132360379041472 ) exiting
+Process 1 ( 132360379041472 ) begining 
+Process 1 ( 132360379041472 ) creating Process 2 
+Process 1 ( 132360379041472 ) exiting
+Process 2 ( 132360368555712 ) begining 
+Process 2 ( 132360368555712 ) exiting
